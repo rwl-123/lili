@@ -923,6 +923,8 @@ a {
     margin: auto;
     text-align: center;
     display: block;
+	 position: relative; /* 添加定位 */
+	    left: 30px; /* 图片向右移动 20px，可根据需要调整 */
 }
 
 .navbar-nav {
@@ -1061,10 +1063,10 @@ a {
 
 .header_bottom_section {
     min-height: 70px;
-    background: #feb61a;
+    background: limegreen;
 }
 
-.header_bottom_section .main_menu {
+.header_bottom_section .col-md-12 {
     float: left;
     padding-left: 25px;
 }
