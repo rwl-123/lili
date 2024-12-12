@@ -924,7 +924,7 @@ a {
     text-align: center;
     display: block;
 	 position: relative; /* 添加定位 */
-	    left: 30px; /* 图片向右移动 20px，可根据需要调整 */
+	   
 }
 
 .navbar-nav {
@@ -1020,8 +1020,9 @@ a {
 
 .logo {
     float: left;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	
 }
 
 .site_information {
@@ -4268,3 +4269,14 @@ form#commant_form div.field textarea.custom_field {
    color: white;              /* 设置文字颜色 */
    border-radius: 5px;        /* 设置圆角 */
 }
+
+
+/* 对小于768px屏幕的设备应用规则 */
+@media (max-width: 768px) {
+    /* 文字部分每行显示两个 */
+    .text-container {
+        flex: 0 0 50%; /* 占50%的宽度 */
+        max-width: 50%;
+    }
+
+  
