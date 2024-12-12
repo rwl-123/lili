@@ -560,7 +560,7 @@ form#commant_form div.field textarea.custom_field {
 .main-heading::after {
     width: 30px;
     height: 4px;
-    background: #feb61a;
+    background: limegreen;
     content: "";
     margin: 0;
     display: block;
@@ -1310,7 +1310,7 @@ a {
 }
 
 .yellow_bg {
-    background: #feb61a;
+    background: limegreen;
 }
 
 .pettr {
@@ -1340,7 +1340,7 @@ p.large_1 {
 
 .form_contact_main button:hover,
 .form_contact_main button:focus {
-    background: #feb61a;
+    background: limegreen;
     color: #111428;
 }
 
@@ -2578,7 +2578,7 @@ ol.workinghours li span,
 .slider_coint_inner p::after {
     width: 125px;
     height: 21px;
-    background: #feb61a;
+    background: limegreen;
     content: "";
     display: block;
     position: absolute;
@@ -2605,7 +2605,7 @@ ol.workinghours li span,
 }
 
 #main_slider ol.carousel-indicators li.active {
-    background: #feb61a;
+    background: limegreen;
 }
 
 
@@ -2661,7 +2661,7 @@ ol.workinghours li span,
 .heading_s1 h2 span::after {
     width: 32px;
     height: 22px;
-    background: #feb61a;
+    background: limegreen;
     content: "";
     display: block;
     position: absolute;
@@ -2673,7 +2673,7 @@ ol.workinghours li span,
 .heading_s1 h3 span::after {
     width: 32px;
     height: 22px;
-    background: #feb61a;
+    background: limegreen;
     content: "";
     display: block;
     position: absolute;
@@ -3006,7 +3006,7 @@ ol.workinghours li span,
 }
 
 #testimonial_slider .carousel-indicators li.active {
-    background: #feb61a;
+    background: limegreen;
 }
 
 section.testimonial_section {
@@ -3109,7 +3109,7 @@ h3.price_tag {
 }
 
 .subscribe_form button {
-    background: #feb61a;
+    background: limegreen;
     position: absolute;
     right: 0;
     top: 0;
@@ -3189,7 +3189,7 @@ h3.price_tag {
 
 .footer_social_icon ul li a:hover,
 .footer_social_icon ul li a:focus {
-    background: #feb61a;
+    background: limegreen;
     color: #111428;
 }
 
@@ -3239,7 +3239,7 @@ h3.price_tag {
 
 .footer_blog2 ul li a:hover,
 .footer_blog2 ul li a:focus {
-    color: #feb61a;
+    color: limegreen;
 }
 
 .address_infor .addrs {
@@ -3277,7 +3277,7 @@ h3.price_tag {
     background: #111428;
     border: none;
     cursor: pointer;
-    color: #feb61a;
+    color: limegreen;
     border-radius: 100%;
     top: 3px;
     font-size: 18px;
@@ -3372,7 +3372,7 @@ h3.price_tag {
 
 .testimonial_qoute {
     background: url(../image/yellow_pettr.png);
-    background-color: #feb61a;
+    background-color: limegreen;
     padding: 49px;
     background-size: auto;
     color: #fff;
@@ -3381,7 +3381,7 @@ h3.price_tag {
 
 .testimonial_qoute {
     background: url(../image/yellow_pettr.png);
-    background-color: #feb61a;
+    background-color: limegreen;
     padding: 50px 50px 50px 75px;
     background-size: auto;
     color: #fff;
@@ -3453,7 +3453,7 @@ h3.price_tag {
 }
 
 .testimonial_page #testimonial_slider .carousel-indicators li.active {
-    background: #feb61a;
+    background: limegreen;
 }
 
 /**-------------------- team page --------------------**/
@@ -3545,7 +3545,7 @@ h3.price_tag {
 
 .team_social_icon ul li a:hover,
 .team_social_icon ul li a:focus {
-    color: #feb61a;
+    color: limegreen;
 }
 
 /**-------------------- 404 error page --------------------**/
@@ -3662,7 +3662,7 @@ h3.price_tag {
     border: 1px solid #feb61a;
     border-radius: 5px;
     text-align: center;
-    background: #feb61a;
+    background: limegreen;
     color: #ffffff;
 }
 
@@ -3853,14 +3853,14 @@ p.post_date {
 
 .categary a:hover,
 .categary a:focus {
-    color: #feb61a;
+    color: limegreen;
 }
 
 .tags a:hover,
 .tags a:focus {
     color: #111 !important;
-    background: #feb61a;
-    border-color: #feb61a;
+    background: limegreen;
+    border-color: limegreen;
 }
 
 /*-------------------------------------------------------------------
@@ -3974,7 +3974,7 @@ p.post_date {
 
 .social_icon li a:hover,
 .social_icon li a:focus {
-    color: #feb61a;
+    color: limegreen;
 }
 
 .img_post {
@@ -4064,7 +4064,7 @@ p.post_date {
 
 .form_full .btn.button_custom:hover,
 .form_full .btn.button_custom:focus {
-    background: #feb61a;
+    background: limegreen;
 }
 
 form#commant_form div.field textarea.custom_field {
@@ -4114,14 +4114,14 @@ form#commant_form div.field textarea.custom_field {
 .pagination>li>span:hover {
     z-index: 2;
     color: #fff;
-    background-color: #feb61a;
-    border-color: #feb61a;
+    background-color: limegreen;
+    border-color: limegreen;
 }
 
 .pagination>.active>a {
-    background: #feb61a;
+    background: limegreen;
     color: #fff;
-    border-color: #feb61a;
+    border-color:limegreen;
 }
 
 /*-------------------------------------------------------------------
