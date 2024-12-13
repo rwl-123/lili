@@ -2790,12 +2790,21 @@ ol.workinghours li span,
 .pet_img {
     position: relative;
     overflow: hidden;
+	width: 100%;
+	border-radius: 15px; /* 使图片容器有圆角 */
 }
 
 .pet_info {
     float: left;
     width: 100%;
     margin-top: 30px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	padding: 10px;
+    background-color: #fff;
+	border-radius: 15px; /* 给整个容器添加圆角 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 为容器添加轻微阴影 */
+	transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑的过渡效果 */
 }
 
 .petinfo {
@@ -2818,34 +2827,52 @@ ol.workinghours li span,
 .petinfo .pet_infobottom {
     width: 100%;
 }
+ .pet_infotop {
+	 	             margin-bottom: 10px;
+	 	         }
+	 	 
 
 .pet_name {
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 600;
     margin: 0;
     line-height: 28px;
     width: 50%;
     float: left;
     text-align: left;
+	color: #333;
+	 	             
 }
 
 .pet_price {
     float: left;
     width: 50%;
-    font-size: 18px;
-    color: #111428;
+    font-size: 25px;
+    color: #e74c3c;
     font-weight: 400;
     text-align: right;
     margin-bottom: 0;
+	margin: 0;
 }
 
 .pet_infobottom ul {
-    list-style: none;
-    margin: 6px 0 0 0;
-    padding: 0;
+     margin: 0;
+    padding: 0;container
     float: left;
     width: 100%;
+	list-style-type: none;
+		 	             
+		 	            
 }
+ .pet_infobottom li {
+	 	             font-size: 14px;
+	 	             color: #666;
+	 	             margin-bottom: 5px;
+	 	         }
+				 
+.pet_infobottom li:last-child {
+	 	             margin-bottom: 0;
+	 	         }
 
 .pet_infobottom ul li {
     float: left;
@@ -2881,6 +2908,11 @@ ol.workinghours li span,
     visibility: visible;
     opacity: 1;
 }
+  .pet_info:hover {
+	 	             transform: translateY(-5px); /* 悬停时稍微上移 */
+	 	             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* 悬停时阴影更大 */
+	 	         }
+	 	 
 
 .overview_search i {
     background: #111428;
@@ -3308,7 +3340,8 @@ h3.price_tag {
 
 .innerpage_banner {
     min-height: 600px;
-    background: url("../image/innerbanner.png");
+    background: url("../image/slider2.png");
+   background-position: 50% center; /* 图片向右移动一点 */
     padding-top: 205px;
     display: flex;
     align-items: center;
@@ -3316,8 +3349,20 @@ h3.price_tag {
     text-align: left;
 }
 
+.innerpage_banner img {
+    width: 100%; /* 全宽显示 */
+    height: auto; /* 保持比例 */
+    object-fit: cover; /* 根据需求裁剪 */
+}
+
+.banner-img {
+    position: relative;
+    top: -100px; /* 根据需要调整负值 */
+	left: 0px; /* 向左移动20px，可根据需要调整 */
+}
+
 .page_title h2 {
-    color: #fff;
+    color: black;
     letter-spacing: -1px;
 }
 
@@ -3335,6 +3380,25 @@ h3.price_tag {
     align-items: center;
     display: flex;
 }
+
+ /* 宠物信息文本 */
+	 	         .petinfo {
+	 	             padding: 10px;
+	 	         }
+
+ /* 图片本身 */
+ .pet_img img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px; /* 圆角效果 */
+	transition: transform 0.3s ease; /* 图片平滑过渡效果 */
+	object-fit: cover; /* 确保图片适应容器并裁剪 */
+	 	         }
+				 
+ /* 当鼠标悬停在图片上时，轻微放大 */
+	.pet_img:hover img {
+	 transform: scale(1.05); /* 放大图片 */
+	 	         }				 
 
 .pet_info.pet_details .pet_img img {
     width: 100%;
