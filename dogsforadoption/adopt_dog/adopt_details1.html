@@ -250,11 +250,14 @@
 	    </div>
 		
 		 <div id="imageModal" class="modal">
-							                <div class="modal-content">
-							                    <span class="close" onclick="closeImage()">&times;</span>
-							                    <img src="../../static/picture/77.png" alt="Image" style="width: 100%; max-width: 500px;">
-							                </div>
-							            </div>
+		     <div class="modal-content">
+		         <span class="close" onclick="closeImage()">&times;</span>
+		         <!-- 图片包裹在超链接<a>标签内 -->
+		         <a href="https://www.puppyspot.com/puppies-for-sale/breed/boston-terrier/puppy/780344" target="_blank"> <!-- 这里是超链接目标URL -->
+		             <img src="../../static/picture/77.png" alt="Image" style="width: 100%; max-width: 500px;">
+		         </a>
+		     </div>
+		 </div>
 	 </section>
 	
 	 <!--end--Contact Information -->
@@ -472,6 +475,35 @@
 	         }
 	     }
 	 </style>
+	 
+	 
+	 
+	  <style>
+	         /* 按钮样式 */
+	         .btn {
+	             background-color: limegreen; /* 按钮背景颜色 */
+	             color: white; /* 按钮文字颜色 */
+	             border: none; /* 去除边框 */
+	             border-radius: 20px; /* 圆角按钮 */
+	             padding: 10px 20px; /* 内边距 */
+	             font-size: 16px; /* 字体大小 */
+	             cursor: pointer; /* 鼠标悬停变为手指图标 */
+	             display: flex;
+	             align-items: center; /* 图标和文字垂直居中 */
+	             gap: 5px; /* 图标和文字的间距 */
+	         }
+	 
+	         /* 鼠标悬停效果 */
+	         .btn:hover {
+	             background-color: #0056b3; /* 深蓝色悬停效果 */
+	         }
+	     </style>
+	 
+	 
+	 
+	 
+	 
+	 
 	 
 	
 	<!-- CSS 样式 -->
