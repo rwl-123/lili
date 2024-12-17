@@ -1610,16 +1610,26 @@ p.large_1 {
 }
 
 .page-link {
-    background-color: #121212;
-    border: 0 none;
-    border-radius: 0 !important;
-    color: #fff;
-    display: block;
-    line-height: 1.25;
-    margin-left: 0;
-    margin-right: 6px;
-    padding: 0.5rem 0.75rem;
-    position: relative;
+   color: #333; /* 默认颜色 */
+       text-decoration: none;
+       padding: 8px 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       margin: 0 5px;
+       transition: background-color 0.3s, color 0.3s;
+}
+
+/* 鼠标悬停效果 */
+.page-link:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+/* 当前页样式 */
+.page-link.active {
+    background-color: limegreen; /* 当前页的背景颜色 */
+    color: white; /* 当前页的文字颜色 */
+    border: 1px solid limegreen; /* 边框颜色与背景一致 */
 }
 
 .blog-grid .col-xs-12 {
