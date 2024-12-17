@@ -113,32 +113,32 @@
 			        <!-- 文字内容 -->
 			        <div class="col-sm-3 text-container">
 			            <div class="text-line" id="text-content">
-			                <h4>01<br> Dog Breeds</h4>
-			                Dog breeds are groups of domestic dogs that have been selectively bred over time...
+			                <h4><span class="green-text">01</span><br> Dog Breeds</h4>
+			                Looking for the perfect dog breed? Explore UHappyZone for detailed info on dog breeds, temperaments, care tips, and more. Find the ideal furry friend for your family today!
 			            </div>
 			            <a href="dogbreeds/breed_dog.html" id="toggle-button" class="read-more">Read More</a>
 			        </div>
 			        <div class="col-sm-3 text-container">
 			            <div class="text-line" id="text-content">
-			                <h4>02<br> Dogs for Adoption</h4>
-			                Dog breeds are groups of domestic dogs that have been selectively bred over time...
-			            </div>
+			                <h4><span class="green-text">02</span><br> Dogs for Adoption</h4>
+			              Ready to welcome a new furry friend into your life? At UHappyZone, we offer a wide range of lovable dogs up for adoption, each eager to find a forever home. From energetic pups to gentle seniors, there’s a perfect match for every family. Adopting a dog means offering them a second chance at happiness while filling your life with love and companionship. Explore our adoptable dogs today and make a life-changing decision!
+						</div>
 			            <a href="dogsforadoption/adopt_dog.html" id="toggle-button" class="read-more">Read More</a>
 			        </div>
 					
 					<div class="col-sm-3 text-container">
 					    <div class="text-line" id="text-content">
-					        <h4>03<br> Dogs for Sale</h4>
-					        Dog breeds are groups of domestic dogs that have been selectively bred over time...
-					    </div>
+					        <h4><span class="green-text">03</span><br> Dogs for Sale</h4>
+					        Find your new best friend at UHappyZone! Explore our selection of adorable, healthy dogs for sale and bring home a loyal companion filled with love and happiness.
+						</div>
 					    <a href="dogsforsale/sale_dog.html" id="toggle-button" class="read-more">Read More</a>
 					</div>
 					
 					<div class="col-sm-3 text-container">
 					    <div class="text-line" id="text-content">
-					        <h4>04<br> Popular Dogs</h4>
-					        Dog breeds are groups of domestic dogs that have been selectively bred over time...
-					    </div>
+					        <h4><span class="green-text">04</span><br> Popular Dogs</h4>
+					        Meet the most popular dogs everyone adores!  From playful Labradors to loyal German Shepherds, explore top dog breeds known for their friendly nature, intelligence, and charm. Find the perfect match for your family!
+						</div>
 					    <a href="dogsforadoption/adopt_dog.html" id="toggle-button" class="read-more">Read More</a>
 					</div>
 					
@@ -150,6 +150,13 @@
 		
 		
     </section>
+	
+	<!-- 添加CSS样式 -->
+	<style>
+	    .green-text {
+	        color: limegreen; /* 设置文本颜色为绿色 */
+	    }
+	</style
 		 
       <!-- end slider -->
       
@@ -245,14 +252,14 @@
                </div>
                <div class="col-md-4 col-sm-12">
                   <div class="footer_link_heading">
-                     <h3>About PupsLover</h3>
+                     <h3>About UHappyZone</h3>
                   </div>
                   <div class="address_infor">
                      <p> 
                         
-                        <span class="addrs">Discover your perfect pup at PupsLover! Explore a variety of dog breeds, puppies for sale, and adoption opportunities. 
-						Find expert tips, connect with breeders, and bring home a furry friend today!</span>
-                     </p>
+                        <span class="addrs">
+							Find your perfect furry friend at UHappyZone! Explore detailed dog breeds, adorable pups for adoption, and dogs for sale. Start your happy journey with us today!
+					 </p>
                      
                   </div>
                   <div class="email_address_bottom">
@@ -294,47 +301,7 @@
       <script src="static/js/custom.js"></script>
 	 
 	 
-	 <!--Gallery部分的-->
-	 
-	 <script>
-	   function showImageAndRedirect(event, imageUrl, targetUrl) {
-	     // 阻止默认跳转行为
-	     event.preventDefault();
-	     
-	     // 创建一个显示大图的模态框
-	     const modal = document.createElement('div');
-	     modal.style.position = 'fixed';
-	     modal.style.top = '0';
-	     modal.style.left = '0';
-	     modal.style.width = '100%';
-	     modal.style.height = '100%';
-	     modal.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-	     modal.style.display = 'flex';
-	     modal.style.justifyContent = 'center';
-	     modal.style.alignItems = 'center';
-	     modal.style.zIndex = '1000';
-	 
-	     // 创建图片元素
-	     const image = document.createElement('img');
-	     image.src = imageUrl;
-	     image.style.maxWidth = '90%';
-	     image.style.maxHeight = '90%';
-	     image.style.border = '5px solid white';
-	     image.style.borderRadius = '8px';
-	     modal.appendChild(image);
-	 
-	     // 点击模态框时跳转到目标页面
-	     modal.onclick = () => {
-	       document.body.removeChild(modal); // 移除模态框
-	       window.location.href = targetUrl; // 跳转到目标页面
-	     };
-	 
-	     // 将模态框添加到页面
-	     document.body.appendChild(modal);
-	   }
-	 </script>
-	  <!--end Gallery部分的-->
-	  
+	
 	  
 	  
 	 
