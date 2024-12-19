@@ -4269,16 +4269,18 @@ form#commant_form div.field textarea.custom_field {
          display: inline-flex;
          align-items: center;
          margin-top: 10px;
-         color: #333;
-         text-decoration: none;
+         color: limegreen;
+		text-decoration: none;
          cursor: pointer;
          font-weight: bold;
          transition: color 0.3s;
+		  font-size: 18px; /* 设置字体大小 */
      }
  
      .read-more:hover {
          color: #007BFF;
          text-decoration: underline;
+		 font-size: 20px; /* 悬停时字体变大 */
      }
  
      .read-more::after {
