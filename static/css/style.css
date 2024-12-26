@@ -1612,11 +1612,12 @@ p.large_1 {
 .page-link {
    color: #333; /* 默认颜色 */
        text-decoration: none;
-       padding: 8px 12px;
+       padding: 4px 8px;   /* 可以根据需要调整按钮的大小 */
        border: 1px solid #ccc;
        border-radius: 4px;
        margin: 0 5px;
        transition: background-color 0.3s, color 0.3s;
+	   
 }
 
 /* 鼠标悬停效果 */
