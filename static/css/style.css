@@ -2839,6 +2839,7 @@ ol.workinghours li span,
 }
  .pet_infotop {
 	 	             margin-bottom: 10px;
+					  white-space: nowrap;  /* 防止文本换行 */
 	 	         }
 	 	 
 
@@ -2851,8 +2852,11 @@ ol.workinghours li span,
     float: left;
     text-align: left;
 	color: #333;
+	
 	 	             
 }
+
+
 
 .pet_price {
     float: left;
